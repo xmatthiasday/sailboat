@@ -1,0 +1,22 @@
+        translate([78,0,0]){
+            cylinder(100,7,7);
+        }
+        translate([93,0,0]){
+            cylinder(100,4,4);
+        }
+        translate([5,0,0]){
+            cylinder(100,4,4);
+        }
+difference(){ 
+    import("/Users/nathanday/Desktop/wingsail.stl");
+
+        translate([18,0,-25]){
+            cylinder(150,8,8);
+        }
+                translate([48,0,-25]){
+            cylinder(150,8,8);
+        }
+                translate([63,0,-25]){
+            cylinder(150,8,8);
+        }
+    }
